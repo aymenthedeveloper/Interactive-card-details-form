@@ -248,6 +248,9 @@ main{
   height: fit-content;
   width: 428px;
 }
+.form .success-msg{
+  transform: translateX(calc(62px + var(--x)));
+}
 .form .form-input input{
   height: 45px;
   margin-bottom: 25px;
